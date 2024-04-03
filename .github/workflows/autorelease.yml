@@ -40,5 +40,5 @@ jobs:
         with:
           generateReleaseNotes: true
           tag: ${{ steps.vnum.outputs.version_tag }}
-          commit: ${{ steps.vnum.outputs.version_tag }}
+          commit: "main"
           name: ${{ steps.vnum.outputs.version_tag }}
