@@ -29,3 +29,4 @@ jobs:
         run: |
           echo "Version is ${{ steps.vnum.outputs.version }}"
           echo "Version tag is ${{ steps.vnum.outputs.version_tag }}"
+          echo "Prev version is ${{ steps.vnum.outputs.previous_version }}"
